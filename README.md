@@ -19,6 +19,10 @@ This project implements a 124M parameter GPT-2 model trained from scratch, close
 
 The code to do inference with the model is in app.py
 
+![Training Progress](training_progress.png)
+
+![Detailed Loss Curve](detailed_loss_curve.png)
+
 ### Key Features
 
 - **Complete GPT-2 implementation** from scratch in PyTorch
@@ -28,6 +32,15 @@ The code to do inference with the model is in app.py
 - **Gradio web interface** for interactive text generation
 - **HellaSwag evaluation** for model benchmarking
 - **Efficient tokenization** using tiktoken (GPT-2 tokenizer)
+
+### Cost and Training Time
+
+- **Training time**: Approximately 3 hours
+- **Training cost**: $42.47 USD
+- **Debugging time cost**: $15 USD
+- **Storage/file system cost**: $0.09 USD
+- **Total cost**: $58 USD
+
 
 ## 🏗️ Architecture
 
@@ -231,6 +244,8 @@ This project is open source and available under the MIT License.
 ## 📞 Contact
 
 For questions or suggestions, please open an issue or reach out via the project repository.
+
+
 
 ---
 
