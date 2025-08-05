@@ -3,3 +3,5 @@ transformers
 tiktoken
 datasets
 tqdm
+gradio
+ipykernel

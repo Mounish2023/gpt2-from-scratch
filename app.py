@@ -46,8 +46,6 @@ def generate(model, prompt, max_new_tokens=100, temperature=1.0, top_k=None, dev
         ids = torch.cat([ids, next_id], dim=1)
     return enc.decode(ids[0].tolist())
 
-print(generate(model, "Hello, my name is", max_new_tokens=50, temperature=0.8, top_k=50))
-
 # 3. Create the Gradio interface
 iface = gr.Interface(
     fn=generate,
